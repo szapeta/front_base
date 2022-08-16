@@ -4,7 +4,7 @@ import "./Footer.css"
 export const FooterAuth = () => {
     return (
         <div className="Footer">
-            Grupo 8 - AYD1
+            Arqui 2
         </div>
     )
 }

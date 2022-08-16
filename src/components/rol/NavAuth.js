@@ -28,7 +28,7 @@ export const NavAuth = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             <Link className="navbar-brand" to="/homeuser">
-                Full Trip
+            iDoor Ciclying
             </Link>
 
             <button

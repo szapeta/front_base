@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <Link className="navbar-brand" to="/home">
-        Full Trip
+        iDoor Ciclying
       </Link>
 
       <div className="navbar-collapse">

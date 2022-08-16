@@ -9,9 +9,9 @@ export const NavAdmin = () => {
                     activeClassName="active"
                     className="nav-item nav-link pr-5"
                     exact
-                    to="/adminhoteles"
+                    to="/calorias"
                 >
-                    Hoteles
+                    Calorias
                 </NavLink>
             </div>
             <div className="navbar-nav">
@@ -19,9 +19,9 @@ export const NavAdmin = () => {
                     activeClassName="active"
                     className="nav-item nav-link pr-5"
                     exact
-                    to="/adminvehiculos"
+                    to="/distancia"
                 >
-                    Vehiculos
+                    Distancia
                 </NavLink>
             </div>
             <div className="navbar-nav pr-5">
@@ -29,9 +29,9 @@ export const NavAdmin = () => {
                     activeClassName="active"
                     className="nav-item nav-link"
                     exact
-                    to="/adminvuelos"
+                    to="/pulso"
                 >
-                    Vuelos
+                    Pulso
                 </NavLink>
             </div>
         </>

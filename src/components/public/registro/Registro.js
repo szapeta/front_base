@@ -85,16 +85,7 @@ export const Registro = ({history}) => {
             <h1>Registro</h1>
             <hr />
             <form autoComplete="off">
-                <div className="box">
-                    <div>
-                        <p>Imagen de perfil</p>
-                        <input
-                            type="file"
-                            name="myImage"
-                            onChange={(e) => setImguser(e.target.files[0])}
-                        />
-                    </div>
-                    <div>
+               
                         <div className="form-group">
                             <label>Nombre Completo</label>
                             <input
@@ -110,7 +101,7 @@ export const Registro = ({history}) => {
                             />
                         </div>
                         <div className="form-group">
-                            <label>Username</label>
+                            <label>Username o email</label>
                             <input
                                 type="ingrese su nombre"
                                 autoComplete="off"
@@ -153,8 +144,7 @@ export const Registro = ({history}) => {
                         >
                             Registrarse
                         </button>
-                    </div>
-                </div>
+
             </form>
 
             <div
