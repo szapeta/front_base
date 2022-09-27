@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #F48498;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #FFF6E8;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #F48498;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.fondo-baby-pink{
+  background-color: #F2CCC3;
+}
+.btn-baby-pink{
+  border-color: #F2CCC3 !important;
+  color: #ffffff;
+}
+
+
+.fondo-light-coral{
+  background-color: #E78F8E;
+}
+.btn-light-coral{
+  border-color: #E78F8E !important;
+  color: #ffffff;
+}
+
+
+.fondo-misty-rose{
+  background-color: #FFF6E8;
+}
+.btn-misty-rose{
+  border-color: #FFF6E8 !important;
+  color: #ffffff;
+}
+
+
+.fondo-celestio {
+  background-color:#3b8cc2;
+}
+.btn-celestio{
+  border-color: #3b8cc2 !important;
+  color: #ffffff;
+}
+
+
+.fondo-pink-sherbet{
+  background-color: #F48498;
+}
+.btn-pink-sherbet{
+  border-color: #F48498 !important;
+  color: #ffffff;
+}
+.btn-pink-sherbet:hover{
+  color: #ffffff;
+  background-color: #CE1235;
+}
+
+.fondo-red-crayola{
+  background-color: #ED3153;
+}
+.btn-red-crayola{
+  border-color: #ED3153 !important;
+  color: #ffffff;
+}
+
+.fondo-lavender-blush{
+  background-color: #FDECF0;
+}
+.btn-lavender-blush{
+  border-color: #FDECF0 !important;
+  color: #ffffff;
+}
+.btn-lavender-blush:hover{
+  background-color: #F36881;
+  color: #ffffff;
 }

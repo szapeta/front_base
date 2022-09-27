@@ -83,7 +83,7 @@ export const Login = ({ history }) => {
                     }}
                 />
             </div>
-            <button className="btn btn-outline-primary" onClick={handleLogin}>
+            <button className="btn btn-lg btn-block btn-pink-sherbet fondo-red-crayola" onClick={handleLogin}>
                 Login
             </button>
         </div>

@@ -4,7 +4,7 @@ import "./Footer.css"
 export const FooterAuth = () => {
     return (
         <div className="Footer">
-            Arqui 2
+            Control de clientes by @szpeta
         </div>
     )
 }

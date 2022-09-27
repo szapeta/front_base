@@ -3,11 +3,7 @@ import { Link, useHistory } from "react-router-dom";
 import { AuthContext } from "../../auth/AuthContext";
 import { types } from "../../types/Types";
 import { NavAdmin } from "./NavAdmin";
-import { NavClear } from "./NavClear";
-import { NavHoteles } from "./NavHoteles";
-import { NavTuristas } from "./NavTuristas";
-import { NavVehiculos } from "./NavVehiculos";
-import { NavVuelos } from "./NavVuelos";
+
 import "./NavAuth.css";
 
 export const NavAuth = () => {
@@ -26,9 +22,9 @@ export const NavAuth = () => {
     };
 
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-sm navbar-dark fondo-light-coral">
             <Link className="navbar-brand" to="/homeuser">
-            iDoor Ciclying
+            Elys
             </Link>
 
             <button
@@ -47,11 +43,7 @@ export const NavAuth = () => {
                 className="navbar-collapse collapse w-100 order-3 dual-collapse2"
                 id="navbarToggleExternalContent"
             >
-                {rol === types.rolAdmin ? <NavAdmin /> : <NavClear />}
-                {rol === types.rolHotel ? <NavHoteles /> : <NavClear />}
-                {rol === types.rolTurista ? <NavTuristas /> : <NavClear />}
-                {rol === types.rolVehiculo ? <NavVehiculos /> : <NavClear />}
-                {rol === types.rolVuelo ? <NavVuelos /> : <NavClear />}
+                 <NavAdmin />
 
                 <ul className="navbar-nav ml-auto">
                     <button className="nav-item nav-link btn" disabled>

@@ -1,12 +1,13 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./Navbar.css";
 
 export const Navbar = () => {
   console.log("Navbar");
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-sm navbar-dark fondo-light-coral">
       <Link className="navbar-brand" to="/home">
-        iDoor Ciclying
+        Elys
       </Link>
 
       <div className="navbar-collapse">

@@ -139,7 +139,7 @@ export const Registro = ({history}) => {
                             />
                         </div>
                         <button
-                            className="btn btn-outline-primary"
+                            className="btn btn-pink-sherbet fondo-red-crayola"
                             onClick={handleRegistro}
                         >
                             Registrarse
